@@ -1,0 +1,13 @@
+Step 1: Create an account at Siteground shared hosting and visit your c panel
+Step 2: Update your document root to /public 
+Step 2: go to your public_html folder and upload a zip file containing your laravel source code.
+Step 3 Unzip your file containing your laravel code and test.
+
+Error & Fixes
+
+1. 500 Internal Server Error - Your application is not running properly. It might be due to incorrect php version or missing php extentions.
+2. Database can be created using the MYSQL Tool provided on the cPanel.
+3. SSL certificte can assigned using Let's Encrypt tool provided on the cPanel.
+4. Perform similer steps to use sub-domain with laravel websites. 
+5. To ssh into your laravel project, use SSH Shell. You will need a SSH key to SHH into siteground web hosting server.
+
