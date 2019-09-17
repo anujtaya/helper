@@ -1,0 +1,20 @@
+Laravel Website Deployment Instructions for Siteground.
+1.	Create a hosting account on siteground.
+2.	Create a database 
+3.	Create a database user 
+4.	Assign database user to the database
+5.	Create a folder with any name in the public_html directory form the cPanel
+6.	Use FTP software to upload your Laravel zip project to the new folder that you have previously created.
+7.	Unzip the file content in the same directory. 
+8.	Change you domain landing url to the public folder of your Laravel project.
+9.	Change php version using PHP version manager on homepage
+10.	Happy Laravel Browsing
+       
+       SSH into siteground
+1.	Create a public/private key using SSH menu from Cpanel 
+2.	Update allowed IP list
+3.	Download your private key and use puttykeygen software to create a ppk (DSA type) and save it.
+4.	Restart the puttygen software.Right click on the puttygen software icon in the desktop tray and click on add key, navigate to your .ppk file and open it. 
+5.	Now open putty software enter your hostname(found on cpanel homepage, port: 18765, username: ‘”home/taylorwi”’, in this case taylorwi is username(found on cpanel hompage)).
+6.	Enter your username (taylorwi(my username sample only).
+7.	Cd into your project directory and perform shell commands.
