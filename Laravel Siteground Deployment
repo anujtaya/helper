@@ -10,7 +10,7 @@ Laravel Website Deployment Instructions for Siteground.
 9.	Change php version using PHP version manager on homepage
 10.	Happy Laravel Browsing
        
-       SSH into siteground
+SSH into siteground
 1.	Create a public/private key using SSH menu from Cpanel 
 2.	Update allowed IP list
 3.	Download your private key and use puttykeygen software to create a ppk (DSA type) and save it.
