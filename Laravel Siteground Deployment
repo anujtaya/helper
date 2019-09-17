@@ -18,3 +18,19 @@ SSH into siteground
 5.	Now open putty software enter your hostname(found on cpanel homepage, port: 18765, username: ‘”home/taylorwi”’, in this case taylorwi is username(found on cpanel hompage)).
 6.	Enter your username (taylorwi(my username sample only).
 7.	Cd into your project directory and perform shell commands.
+
+
+Changing the Siteground CLI 
+You can change the PHP CLI version through SSH. After connecting through SSH type cd ~ and then find .bash_profile file. Open the .bash_profile file with nano or vi which you would like to use and enter this line:
+
+alias php=/usr/local/php72/bin/php-cli
+
+and save the file. After that run command:
+
+source .bash_profile
+
+And your PHP CLI version has been changed. To confirm the PHP version type php -v and it will show you the version which you just changed.
+
+P.S: In my case, I want to change the PHP CLI version to PHP 7.2 so I use php72 in alias php=/usr/local/php72/bin/php-cli. You can change it to any other version which you need.
+Credit Soruce : StackOver Flow 
+Link : https://stackoverflow.com/questions/47982953/how-do-you-update-php-version-to-7-on-siteground-server
