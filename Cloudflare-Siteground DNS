@@ -1,0 +1,3 @@
+1. Copy the ip address of your from your hosting CPANEL.
+2. Go to cloudflare domain dns settings and add/update www and *.com.* records with the ip address.
+3. Wait for 
