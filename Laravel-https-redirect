@@ -1,0 +1,1 @@
+$this->app['request']->server->set('https','on');
