@@ -1,1 +1,2 @@
-$this->app['request']->server->set('https','on');
+Easy Apply: $this->app['request']->server->set('https','on');
+Description: https://stackoverflow.com/questions/28402726/laravel-5-redirect-to-https
